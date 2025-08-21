@@ -19,13 +19,13 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-  "？你认真的吗…",
+"纳尼",
   "要不再想想？",
   "不许选这个！ ",
-  "我会很伤心…",
-  "不行:(",
+  "飞鼠很难过( ´•̥̥̥ω•̥̥̥` )",
+  "不行不行不行不行不行不行不行！！！:(",
+  "快跟我玩⁽⁽ ◟(∗ ˊωˋ ∗)◞ ⁾⁾:(",
 ];
-
 // No 按钮点击事件
 noButton.addEventListener("click", function () {
   clickCount++;
@@ -44,20 +44,21 @@ noButton.addEventListener("click", function () {
   questionText.style.transform = `translateY(-${moveUp}px)`;
 
   // No 文案变化（前 5 次变化）
-  if (clickCount <= 5) {
+  if (clickCount <= 6) {
     noButton.innerText = noTexts[clickCount - 1];
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
-  if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
-  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
-  if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
-  if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
+if (clickCount === 1) mainImage.src = "images/4ESdawbaho2weWP.gif"; // 卖萌
+  if (clickCount === 2) mainImage.src = "images/GgSOEVVJFdP1Wd3.thumb.1000_0.gif"; // 暗中观察
+  if (clickCount === 3) mainImage.src = "images/xDSdpQa2i2p4mX7.thumb.1000_0.png"; // 伤心
+  if (clickCount === 4) mainImage.src = "images/5zS3l6jGIO5P6ax.thumb.1000_0.gif"; // 哭
+  if (clickCount === 5) mainImage.src = "images/Q2Sbz64oU8B2Zeq.thumb.1000_0.gif"; // 安慰我
+  if (clickCount >= 6) mainImage.src = "images/73SmJnNjIeqgAZB.gif"; // 打滚
+}
 });
-
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!熊欣悦我喜欢你!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
@@ -76,6 +77,7 @@ yesButton.addEventListener("click", function () {
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
 });
+
 
 
 
