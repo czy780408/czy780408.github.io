@@ -56,7 +56,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 3) mainImage.src = "xDSdpQa2i2p4mX7.thumb.1000_0.png"; // 伤心
   if (clickCount === 4) mainImage.src = "5zS3l6jGIO5P6ax.thumb.1000_0.gif"; // 哭
   if (clickCount === 5) mainImage.src = "Q2Sbz64oU8B2Zeq.thumb.1000_0.gif"; // 安慰我
-  if (clickCount >= 6) mainImage.src = "images/crying.png"; // 打滚
+  if (clickCount >= 6) mainImage.src = "73SmJnNjIeqgAZB.gif"; // 打滚
 });
 
 // Yes 按钮点击后，进入表白成功页面
@@ -80,6 +80,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
