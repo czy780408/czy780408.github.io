@@ -50,29 +50,12 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) {
-  img.src = "images/4ESdawbaho2weWP.gif";
-  img.alt = "卖萌的表情";
-}
-if (clickCount === 2) {
-  mainImage.src = "images/GgSOEVVJFdP1Wd3.thumb.1000_0.gif";
-  mainImage.alt = "暗中观察的表情";
-}
-if (clickCount === 3) {
-  mainImage.src = "images/xDSdpQa2i2p4mX7.thumb.1000_0.png";
-  mainImage.alt = "伤心的表情";
-}
-if (clickCount === 4) {
-  mainImage.src = "images/5zS3l6jGIO5P6ax.thumb.1000_0.gif";
-  mainImage.alt = "哭泣的表情";
-}
-if (clickCount === 5) {
-  mainImage.src = "images/Q2Sbz64oU8B2Zeq.thumb.1000_0.gif";
-  mainImage.alt = "需要安慰的表情";
-}
-if (clickCount >= 6) {
-  mainImage.src = "images/73SmJnNjIeqgAZB.gif";
-  mainImage.alt = "打滚的表情";
+  if (clickCount === 1) mainImage.src = "images/4ESdawbaho2weWP.gif"; // 卖萌
+  if (clickCount === 2) mainImage.src = "images/GgSOEVVJFdP1Wd3.thumb.1000_0.gif"; // 暗中观察
+  if (clickCount === 3) mainImage.src = "images/xDSdpQa2i2p4mX7.thumb.1000_0.png"; // 伤心
+  if (clickCount === 4) mainImage.src = "images/5zS3l6jGIO5P6ax.thumb.1000_0.gif"; // 哭
+  if (clickCount === 5) mainImage.src = "images/Q2Sbz64oU8B2Zeq.thumb.1000_0.gif"; // 安慰我
+  if (clickCount >= 6) mainImage.src = "images/73SmJnNjIeqgAZB.gif"; // 打滚
 }
 });
 
@@ -97,6 +80,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
