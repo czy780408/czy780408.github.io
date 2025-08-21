@@ -51,8 +51,8 @@ noButton.addEventListener("click", function () {
 
   // 图片变化（前 5 次变化）
   if (clickCount === 1) {
-  mainImage.src = "images/4ESdawbaho2weWP.gif";
-  mainImage.alt = "卖萌的表情";
+  img.src = "images/4ESdawbaho2weWP.gif";
+  img.alt = "卖萌的表情";
 }
 if (clickCount === 2) {
   mainImage.src = "images/GgSOEVVJFdP1Wd3.thumb.1000_0.gif";
@@ -97,6 +97,7 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
 
