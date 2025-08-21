@@ -19,6 +19,7 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
+    "纳尼",
   "？你认真的吗…",
   "要不再想想？",
   "不许选这个！ ",
@@ -78,3 +79,4 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
