@@ -66,7 +66,7 @@ yesButton.addEventListener("click", function () {
   document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text"></h1>
-            <img src="images/hug.png" alt="拥抱" class="yes-image">
+            <img src="images/bYSAqWvpiLDvjol.thumb.1000_0.jpeg" alt="拥抱" class="yes-image">
         </div>
     `;
 
@@ -76,6 +76,7 @@ yesButton.addEventListener("click", function () {
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
 });
+
 
 
 
