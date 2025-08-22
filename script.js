@@ -55,7 +55,6 @@ if (clickCount === 1) mainImage.src = "images/4ESdawbaho2weWP.gif"; // 卖萌
   if (clickCount === 4) mainImage.src = "images/5zS3l6jGIO5P6ax.thumb.1000_0.gif"; // 哭
   if (clickCount === 5) mainImage.src = "images/Q2Sbz64oU8B2Zeq.thumb.1000_0.gif"; // 安慰我
   if (clickCount >= 6) mainImage.src = "images/73SmJnNjIeqgAZB.gif"; // 打滚
-}
 });
 // Yes 按钮点击后，进入表白成功页面
 const loveTest = `!!!熊欣悦我喜欢你!! ( >᎑<)♡︎ᐝ  ${
@@ -77,6 +76,7 @@ yesButton.addEventListener("click", function () {
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
 });
+
 
 
 
